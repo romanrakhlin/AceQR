@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AceQR/Pods-AceQR-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Colorful/Colorful.framework
+${BUILT_PRODUCTS_DIR}/EFQRCode/EFQRCode.framework
+${BUILT_PRODUCTS_DIR}/SwiftyButton/SwiftyButton.framework

@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>AceQR would like to save photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>AceQR would like to use your photo library</string>
+	<key>NSCameraUsageDescription</key>
+	<string>AceQR would like have access to your camera</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

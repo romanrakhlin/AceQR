@@ -1,0 +1,26 @@
+PODS:
+  - Colorful (3.0.0)
+  - EFQRCode (5.1.6):
+    - EFQRCode/Core (= 5.1.6)
+  - EFQRCode/Core (5.1.6)
+  - SwiftyButton (0.8.2)
+
+DEPENDENCIES:
+  - Colorful
+  - EFQRCode
+  - SwiftyButton
+
+SPEC REPOS:
+  trunk:
+    - Colorful
+    - EFQRCode
+    - SwiftyButton
+
+SPEC CHECKSUMS:
+  Colorful: 9e093edacaa9fb73512ad9da157f0707b82d2542
+  EFQRCode: a7ea2e517912f5bf6ba258b631327a83cd8084a5
+  SwiftyButton: 5b0ef314e9cf61cf8a83e456ddd1ea1f53f30598
+
+PODFILE CHECKSUM: 1b641d3c1d57ebe25f1f6eb6c5a89049440caff2
+
+COCOAPODS: 1.8.4

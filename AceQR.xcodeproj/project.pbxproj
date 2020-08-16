@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		3A2348DC2459BE4F0026304B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2348DA2459BE4F0026304B /* Main.storyboard */; };
 		3A2348DE2459BE540026304B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2348DD2459BE540026304B /* Assets.xcassets */; };
 		3A2348E12459BE540026304B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2348DF2459BE540026304B /* LaunchScreen.storyboard */; };
+		3AE8B198247B2D840068E12A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8B197247B2D840068E12A /* UIImage+Extension.swift */; };
+		3AE8B19A247B31D70068E12A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8B199247B31D70068E12A /* UIView+Extension.swift */; };
+		F364879533C72BBA37760DCF /* Pods_AceQR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3EEB3CD7F83C12E4DADCEE /* Pods_AceQR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120B3234AB036C50EF333D51 /* Pods-AceQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceQR.debug.xcconfig"; path = "Target Support Files/Pods-AceQR/Pods-AceQR.debug.xcconfig"; sourceTree = "<group>"; };
 		3A2348D12459BE4F0026304B /* AceQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2348D42459BE4F0026304B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2348D62459BE4F0026304B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		3A2348DD2459BE540026304B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2348E02459BE540026304B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2348E22459BE540026304B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE8B197247B2D840068E12A /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		3AE8B199247B31D70068E12A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		453EC0B0E9130C9922AAB758 /* Pods-AceQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceQR.release.xcconfig"; path = "Target Support Files/Pods-AceQR/Pods-AceQR.release.xcconfig"; sourceTree = "<group>"; };
+		BC3EEB3CD7F83C12E4DADCEE /* Pods_AceQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AceQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F364879533C72BBA37760DCF /* Pods_AceQR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				3A2348D32459BE4F0026304B /* AceQR */,
 				3A2348D22459BE4F0026304B /* Products */,
+				AEE847129F73E4D961BFDE36 /* Pods */,
+				56568E036A35102C66F8BB7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +70,31 @@
 				3A2348D42459BE4F0026304B /* AppDelegate.swift */,
 				3A2348D62459BE4F0026304B /* SceneDelegate.swift */,
 				3A2348D82459BE4F0026304B /* ViewController.swift */,
+				3AE8B197247B2D840068E12A /* UIImage+Extension.swift */,
+				3AE8B199247B31D70068E12A /* UIView+Extension.swift */,
 				3A2348DA2459BE4F0026304B /* Main.storyboard */,
 				3A2348DD2459BE540026304B /* Assets.xcassets */,
 				3A2348DF2459BE540026304B /* LaunchScreen.storyboard */,
 				3A2348E22459BE540026304B /* Info.plist */,
 			);
 			path = AceQR;
+			sourceTree = "<group>";
+		};
+		56568E036A35102C66F8BB7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3EEB3CD7F83C12E4DADCEE /* Pods_AceQR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEE847129F73E4D961BFDE36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120B3234AB036C50EF333D51 /* Pods-AceQR.debug.xcconfig */,
+				453EC0B0E9130C9922AAB758 /* Pods-AceQR.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A2348E52459BE540026304B /* Build configuration list for PBXNativeTarget "AceQR" */;
 			buildPhases = (
+				CF784A08CE37210130EEDCF5 /* [CP] Check Pods Manifest.lock */,
 				3A2348CD2459BE4F0026304B /* Sources */,
 				3A2348CE2459BE4F0026304B /* Frameworks */,
 				3A2348CF2459BE4F0026304B /* Resources */,
+				CAA72C96F7A80CDE2EFFDCDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +165,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CAA72C96F7A80CDE2EFFDCDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AceQR/Pods-AceQR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AceQR/Pods-AceQR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AceQR/Pods-AceQR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF784A08CE37210130EEDCF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AceQR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A2348CD2459BE4F0026304B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +215,8 @@
 				3A2348D92459BE4F0026304B /* ViewController.swift in Sources */,
 				3A2348D52459BE4F0026304B /* AppDelegate.swift in Sources */,
 				3A2348D72459BE4F0026304B /* SceneDelegate.swift in Sources */,
+				3AE8B19A247B31D70068E12A /* UIView+Extension.swift in Sources */,
+				3AE8B198247B2D840068E12A /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 		};
 		3A2348E62459BE540026304B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120B3234AB036C50EF333D51 /* Pods-AceQR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +377,7 @@
 		};
 		3A2348E72459BE540026304B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453EC0B0E9130C9922AAB758 /* Pods-AceQR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
