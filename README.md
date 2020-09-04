@@ -7,8 +7,8 @@ This app allows you to create amazing QR codes
 
 ## Screenshots
 <p float="left">
-  <img src="/imageOne" width="250" />
-  <img src="/image2" width="250" />
+  <img src="/imageOne.png" width="250" />
+  <img src="/image2.png" width="250" />
 </p>
 
 ## How's it works
